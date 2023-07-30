@@ -7,7 +7,7 @@ library(stringr)
 
 # settings ----------------------------------------------------------------
 # version to download
-version <- "10.2.0"
+version <- "11.1.0"
 hccodeurl <- "http://code.highcharts.com"
 
 path       <- sprintf("inst/htmlwidgets/lib/highcharts")
@@ -26,7 +26,6 @@ download.file(
 )
 
 folder_temp <- tempdir()
-
 unzip(file_temp, exdir = folder_temp)
 
 files <- dir(folder_temp, recursive = TRUE, full.names = TRUE) %>% 

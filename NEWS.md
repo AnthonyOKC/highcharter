@@ -1,8 +1,8 @@
-# highcharter 0.9.4.9000
+# highcharter 0.9.4.9001
 
 ## Changes
 
-* Highcharter now uses HighchartsJS 10.2.0.
+* Highcharter now uses HighchartsJS 11.1.0
 
 # highcharter 0.9.4
 
